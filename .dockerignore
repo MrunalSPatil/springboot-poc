@@ -1,0 +1,52 @@
+# Git files
+.git
+.gitignore
+.gitattributes
+
+# IDE and editor files
+.vscode
+.idea
+*.swp
+*.swo
+*~
+.DS_Store
+.project
+.classpath
+.settings/
+
+# Build and dependency files
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.log
+*.iml
+
+# Documentation
+README.md
+CHANGELOG.md
+CI-CD-GUIDE.md
+
+# CI/CD files
+.github/
+.gitlab-ci.yml
+Jenkinsfile
+
+# Docker files (don't need in image)
+Dockerfile
+docker-compose.yml
+
+# Node modules and npm
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Maven specific
+.m2/
+maven-wrapper.jar

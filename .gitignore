@@ -1,0 +1,53 @@
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+pom.xml.bak
+release.properties
+dependency-reduced-pom.xml
+.flattened-pom.xml
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+*.classpath
+.project
+.settings/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build
+.gradle/
+build/
+*.class
+*.jar
+*.war
+
+# Logs
+logs/
+*.log
+*.log.gz
+
+# Coverage
+.coverage
+htmlcov/
+target/site/
+target/classes/
+target/test-classes/
+
+# Dependencies
+.m2/
+
+# Environment
+.env
+.env.local
