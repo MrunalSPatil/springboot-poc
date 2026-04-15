@@ -22,11 +22,11 @@ public class HelloControllerTest {
     }
 
     @Test
-    public void testHelloEndpoint_ReturnsText() throws Exception {
-        mockMvc.perform(get("/hello"))
-               .andExpect(status().isOk())
-               .andExpect(content().contentType("application/json"));
-    }
+public void testHelloEndpoint_ReturnsText() throws Exception {
+    mockMvc.perform(get("/hello"))
+           .andExpect(status().isOk())
+           .andExpect(content().contentType("text/plain;charset=UTF-8"));
+}
 
     @Test
     public void testHelloEndpoint_InvalidPath() throws Exception {
